@@ -1,0 +1,60 @@
+  openapi: "3.0.0"
+  info:
+    title: Pybossa API
+  servers:
+    - url: 'pb.citizenscience.ch'
+      description: C3S Prod Server
+  paths:
+  components:
+    requestBodies:
+      Project:
+        content:
+          appplication/json:
+            schema:
+              $ref: '#/components/schemas/Project'
+      Task:
+        content:
+          appplication/json:
+            schema:
+              $ref: '#/components/schemas/Task'
+      TaskRun:
+        content:
+          appplication/json:
+            schema:
+              $ref: '#/components/schemas/TaskRun'
+      User:
+        content:
+          appplication/json:
+            schema:
+              $ref: '#/components/schemas/User'
+      Category:
+        content:
+          appplication/json:
+            schema:
+              $ref: '#/components/schemas/Category'
+      Result:
+        content:
+          appplication/json:
+            schema:
+              $ref: '#/components/schemas/Project'
+      BlogPost:
+        content:
+          appplication/json:
+            schema:
+              $ref: '#/components/schemas/Project'
+      Accouncement:
+        content:
+          appplication/json:
+            schema:
+              $ref: '#/components/schemas/Project'
+      Helpingmaterial:
+        content:
+          appplication/json:
+            schema:
+              $ref: '#/components/schemas/Project'
+    schemas:
+      Project:
+      Task:
+      TaskRun:
+      Category:
+      User:
